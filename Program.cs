@@ -12,3 +12,4 @@ if (num.Length >= 3)
 
 else
     Console.WriteLine("Число не трехзначное");
+    
