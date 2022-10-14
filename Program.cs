@@ -4,6 +4,8 @@
 782 -> 8
 918 -> 1
 */
+
+
 Console.WriteLine("Введите трехзначное число: ");
 string num = Convert.ToString(Console.ReadLine());
 
@@ -11,5 +13,5 @@ if (num.Length >= 3)
     Console.WriteLine(num[1]);
 
 else
-    Console.WriteLine("Число не трехзначное");
-    
+    Console.WriteLine("число не трехзначное");
+
